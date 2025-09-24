@@ -1,0 +1,12 @@
+{ 
+    "rewrites" :  [
+        {
+            "source": "/api/:path*",
+            "destination": "[バックエンドサーバのベースパス]/:path*"
+        },
+        { 
+             "source": "/signUp", 
+             "destination": "/"
+        }
+    ] 
+}
